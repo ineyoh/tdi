@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Import my external style sheet-->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <!--Import google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css style sheet-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    
+    <title>TDI Innovation</title>
+</head>
+
+<body>
+<!-- This is the header of the website-->
+<header  class="project-header">
+  <!-- This section is for the Navigation (Logo and Icon) -->
+    <nav class="nav-extended">
+        <div class="nav-wrapper white">
+            <a href="index.html"><img class="responsive-img hide-on-med-and-down" id= "logo" src="images/wireframe.png" alt="Innovation" width="45"></a>
+              <a href="#" id="mobile-nav" data-target="mobile-demo" class="sidenav-trigger left "><i class=" large material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+              <li id="add-to-queue"><a href="innovation.html" class="btn-floating pulse green darken-2 z-depth-0">
+                <i data-target="modal" class="material-icons modal-trigger">add_to_queue</i></a></li>
+              </ul>
+        </div>
+
+         <!-- Modal Structure -->
+
+        <div id="modal" class="modal">
+            <div class="modal-content white">
+                 <h4 class="grey-text text-darken-4">ATTENTION!!!</h4>
+                <p class="grey-text text-darken-4">This section is reserved for members of the innovation department only.<br/> 
+                  Click the Exit button to remain on this page.</p>
+           </div>
+            <div class="modal-footer">
+                <a href="innovation.html" id="proceed-btn" class="waves-light btn grey darken-3 right">Proceed</a>
+                <a href="#" id="exit-btn" class="modal-close waves-light btn green darken-3 right">Exit</a>
+          </div>
+        </div>
+
+        <!-- This section is for the navigation content -->
+        
+        <div class="nav-content white">
+        <ul class="tabs">
+            <li class="tab"><a href="index.html" class="green-text text-darken-4">TDI Innovation</a></li>
+            <li class="tab active"><a href="projects.html" class="green-text text-darken-4">Projects</a></li>
+            <li class="tab"><a href="team.html" class="green-text text-darken-4">The Team</a></li>
+            <li class="tab"><a href="news.html" class="green-text text-darken-4">News</a></li>
+            <!-- <li class="tab disabled"><a href="#" class="green-text text-darken-4">Blog</a></li> -->
+        </ul> 
+        </div>   
+    </nav>
+    
+    <!-- This section is for the navigation content for mobile devices-->
+    
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="http://tdi.ai/jira.html">Jira Dashboard</a></li>
+      <li><a href="https://track.td.com/secure/Dashboard.jspa">Jira Manager</a></li>
+      <li><a href="https://code.td.com/projects/TDII">BitBucket</a></li>
+    </ul>
+</header>
+
+ <!--List of Apps -->
+
+ <h5 id="apps-title" class="green-text text-darken-2 center">PROTOTYPES<h5><br/>
+
+    <section class="container section center" id="apps-container"> 
+       <div class="row">  
+         <div class="col s12 l6">
+             <div class="border-box">
+                <h5 class="green-text text-darken-2 center">TD Realtors</h5>
+                    <p>Click here to interact with the prototype.</p>
+                    <a id="app-icon1" href="realtors.html" class="waves-effect waves-light btn-large green darken-2">
+                        <i class="material-icons center">home</i></a> 
+                    <p class="app-text">Webapp which helps a user look for a house while getting a good idea of their real monthly expenses.</p>
+             </div>              
+         </div>
+
+         <div class="col s12 l6">
+                <div class="border-box">
+                <h5 class="green-text text-darken-2 center">Sentiment Analysis Model</h5>
+                        <p>Click here to interact with the prototype.</p>
+                        <a href="sentiment.html" id="for-icon2" class="waves-effect waves-light btn-large green darken-2">
+                            <i class="material-icons center">hearing</i></a> 
+                    <p class="app-text">Early model capable of identifying negative and positive sentiments from text.</p>
+                </div>       
+           </div>
+         </div>
+   </section>
+
+<!--Current Projects -->
+  
+<section class="container-section">
+    <h5 id="current-project-title" class="green-text text-darken-2 center">CURRENT PROJECTS</h5>
+
+    <div id="project-container1" class="row">
+        <div class="col s12 l4">
+            <div class="card grey darken-3">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/project pictures/dpr.png">
+                </div>
+            <div class="card-content">
+                    <span class="card-title activator white-text text-darken-4">DPR<i class="material-icons right">menu</i></span>
+                    <!-- <p><a href="#" class="white-text text-darken-4">Learn more</a></p> -->
+            </div>
+            <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+            <div class="col s12 l4">
+                <div class="card grey darken-3">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/project pictures/Fligoo.png">
+                    </div>
+                <div class="card-content">
+                        <span class="card-title activator white-text text-darken-4">Fligoo<i class="material-icons right">menu</i></span>
+                </div>
+                <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+                <div class="col s12 l4">
+                    <div class="card grey darken-3">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/project pictures/Eddy-home.png">
+                        </div>
+                    <div class="card-content white">
+                            <span class="card-title activator grey-text text-darken-4">Eddy Home<i class="material-icons right">menu</i></span>
+                    </div>
+                    <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+  </section>
+
+<!--Your contributions are valued -->
+
+  
+  <section class="container section center">
+        <div id="contributions-container" class="row">  
+                <h5 class="green-text text-darken-2 center">YOUR CONTRIBUTIONS ARE VALUED<h5><br/>
+          <div class="col s12 l12">
+            <p id="accelerator-text">No matter how brilliant your mind or strategy is, 
+                if you’re playing a solo game, you’ll always lose out to a team. <br/>
+                Our principal role as an innovation team is to accelerate new ideas and the adoption of new ideas. <br/>
+                That is why we at TDI Innovation value your contributions.</p>
+          </div>
+          <div id="team-btn" class="col s12 l12 center ">
+                <a class="waves-effect waves-light btn-large green darken-4" 
+                href="mailto:TDIInnovation@tdinsurance.com?bcc=Mehran.Moghtadai@tdassurance.com, 
+                Olugbeminiyi.Onabanjo@tdassurance.com&Subject= Idea%20Proposal" target="_blank">PROPOSE AN IDEA</a>
+          </div>
+          </div>
+  </section>
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/devices.jpg"></div>
+</div>
+
+  <section id="project-container2" class="container-section">
+        <h5 id="past-project-title" class="green-text text-darken-2 center">PAST PROJECTS</h5>
+    
+        <div class="row">
+            <div class="col s12 l4">
+                <div class="card grey darken-3">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/project pictures/Amazon.png">
+                    </div>
+                <div class="card-content white">
+                        <span class="card-title activator grey-text text-darken-4">Amazon<i class="material-icons right">menu</i></span>
+                </div>
+                <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+                <div class="col s12 l4">
+                    <div class="card grey darken-3">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/project pictures/sitata.png">
+                        </div>
+                    <div class="card-content">
+                            <span class="card-title activator white-text text-darken-4">Sitata<i class="material-icons right">menu</i></span>
+                    </div>
+                    <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col s12 l4">
+                        <div class="card grey darken-3">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/project pictures/TD.png">
+                            </div>
+                        <div class="card-content">
+                                <span class="card-title activator white-text text-darken-4">TD<i class="material-icons right">menu</i></span>
+                        </div>
+                        <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+      </section>
+
+      <!-- Footer begins here -->
+
+<footer class="page-footer grey darken-3">
+    <div class="container">
+        <div class="row">
+        <div class="col l6 s12">
+            <h5 class="white-text">TDI Innovation</h5>
+            <p class="grey-text text-lighten-4">We are a multi-disciplinary team in charge of propelling TDI in the 
+            innovation space while addressing our clients needs and well-being.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+                    <li><a class="grey-text text-lighten-4" href="index.html">TDI Innovation</a></li>
+                    <li><a class="grey-text text-lighten-4" href="team.html">The Team</a></li>
+                    <li><a class="grey-text text-lighten-4" href="#!">News</a></li>
+                    <li><a class="grey-text text-lighten-4" href="#!">Blog</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-lighten-4">
+        <div class="container">
+            <p class="footer-text">© 2014 Copyright 2019 TDI Innovation. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+     <!--JavaScript at end of body for optimized loading-->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+     <script>
+     $(document).ready(function(){
+     $('.sidenav').sidenav();
+     $('.parallax').parallax();
+     $('.modal').modal();
+    });
+    </script>
+</body>
+</html>
