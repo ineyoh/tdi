@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Import my external style sheet-->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <!--Import google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css style sheet-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    
+    <title>TDI Innovation</title>
+</head>
+
+<body>
+<!-- This is the header of the website-->
+<header class ="innovation-header">
+  <!-- This section is for the Navigation (Logo and Icon) -->
+    <nav class="nav-extended">
+        <div class="nav-wrapper white">
+            <a href="index.html"><img class="responsive-img hide-on-med-and-down" id= "logo" src="images/wireframe.png" alt="Innovation" width="45"></a>
+              <a href="#" id="mobile-nav" data-target="mobile-demo" class="sidenav-trigger left "><i class=" large material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+              <li id="add-to-queue"><a href="innovation.html" class="btn-floating green darken-2 z-depth-0">
+                <i class="material-icons">add_to_queue</i></a></li>
+              </ul>
+        </div>
+
+        <!-- This section is for the navigation content -->
+        
+        <div class="nav-content white">
+        <ul class="tabs">
+            <li class="tab"><a href="index.html" class="green-text text-darken-4">TDI Innovation</a></li>
+            <li class="tab"><a href="projects.html" class="green-text text-darken-4">Projects</a></li>
+            <li class="tab"><a href="team.html" class="green-text text-darken-4">The Team</a></li>
+            <li class="tab"><a href="news.html" class="green-text text-darken-4">News</a></li>
+            <!-- <li class="tab  disabled"><a href="#" class="green-text text-darken-4">Blog</a></li> -->
+        </ul> 
+        </div>   
+    </nav>
+    
+    <!-- This section is for the navigation content for mobile devices-->
+    
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="http://tdi.ai/jira.html">Jira Dashboard</a></li>
+      <li><a href="https://track.td.com/secure/Dashboard.jspa">Jira Manager</a></li>
+      <li><a href="https://code.td.com/projects/TDII">BitBucket</a></li>
+    </ul>
+</header>
+
+ <!--Jira Section -->
+
+ <h5 id="innovation-title" class="green-text text-darken-2 center">INNOVATION TOOLS<h5><br/>
+
+ <section class="container section center" id="accelerator-container">
+    <div class="row">  
+      <div class="col s12 l6">
+        <div class="col s12 l12 center ">
+            <a href="http://tdi.ai/jira.html" id="jd-btn" class="waves-effect waves-light btn-large green darken-4"><i class="material-icons left">dashboard</i>JIRA DASHBOARD</a> 
+      </div>
+      <div class="col s12 l12 center ">
+        <a href="https://track.td.com/secure/Dashboard.jspa" id="jm-btn" class="waves-effect waves-light btn-large green darken-4"><i class="material-icons left">system_update_alt</i>JIRA MANAGER</a> 
+    </div>
+    <div class="col s12 l12 center ">
+        <a href="https://code.td.com/projects/TDII" id="bb-btn" class="waves-effect waves-light btn-large green darken-4"><i class="material-icons left">folder_open</i>BIT BUCKET</a>
+    </div>
+      </div>
+
+      <div class="col s12 l6">
+        <div></div>
+            <img class="responsive-img hide-on-med-and-down" src="images/undraw_live_collaboration_2r4y.png" alt="Innovation" width="100%">
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+<!-- Footer begins here -->
+
+<footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">TDI Innovation</h5>
+          <p class="grey-text text-lighten-4">We are a multi-disciplinary team in charge of propelling TDI in the 
+            innovation space while addressing our clients needs and well-being.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+              <li><a class="grey-text text-lighten-4" href="index.html">TDI Innovation</a></li>
+              <li><a class="grey-text text-lighten-4" href="team.html">The Team</a></li>
+              <li><a class="grey-text text-lighten-4" href="#!">News</a></li>
+              <li><a class="grey-text text-lighten-4" href="#!">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-lighten-4">
+        <div class="container">
+          <p class="footer-text">© 2014 Copyright 2019 TDI Innovation. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+     <!--JavaScript at end of body for optimized loading-->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+     <script>
+     $(document).ready(function(){
+     $('.sidenav').sidenav();
+     $('.parallax').parallax();
+    });
+    </script>
+</body>
+</html>
