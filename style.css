@@ -1,0 +1,469 @@
+/* ---------------------------- index.html-------------------------------- */
+p{
+  font-size: 20px;
+}
+
+ul li{
+  font-size: 20px;
+}
+
+.tabs li{
+  font-weight: 600;
+}
+
+#logo{
+  margin-top: 0.5rem;
+  margin-left: 4rem;
+  width: 3rem
+}
+
+#mobile-nav{
+margin-left: 3rem;
+color: green;
+}
+
+
+#add-to-queue{
+margin: 0rem 4rem 0 4rem;
+}
+
+header{
+  background: url('../images/header1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  min-height: 770px;
+  position: relative;
+}
+
+#exit-btn{
+  margin-right: 1rem;
+}
+
+#about-tdi-innovation-title{
+  margin: 3rem auto;
+}
+
+#about-tdi-innovation-content{
+line-height: 35px;
+width: 90%;
+margin: 0 5% 0 5%;
+}
+
+#purpose-title{
+padding-bottom: 0;
+}
+
+#vision-container {
+height: 600px;
+width: 100%;
+margin-top: 6rem;
+margin-bottom: 3rem;
+background-color: rgba(241, 241, 241, 0.904);
+box-shadow: 0px 0px 10px #A2A2A229;
+}
+
+#vision-picture{
+  padding-top: 1rem;
+  height: 365px;
+}
+
+#vision-container ul li{
+color: rgb(43, 43, 43);
+text-align: center;
+padding-bottom: 3.5rem;
+line-height: 25px;
+}
+
+#team-container{
+margin-top: 6rem;
+background-color: rgba(241, 241, 241, 0.904);
+box-shadow: 0px 0px 10px #A2A2A229;
+padding: 0px;
+}
+
+#team-text{
+color: rgb(43, 43, 43);
+text-align: center;
+line-height: 35px;
+padding: 0 0 1rem 0;
+width: 90%;
+margin: 0 5%;
+}
+
+#team-member-container{
+  width: 95%;
+  margin: 0 2.5%;
+}
+
+.team-member{
+margin: 1.5rem;
+width: 220px;
+height: 320px;
+border-radius: 5px;
+margin-bottom: 0.5rem;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.team-member:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#team-btn{
+padding: 3rem 0 1rem 0;
+}
+
+#accelerator-container{
+margin-top: 4rem;
+background-color: rgba(241, 241, 241, 0.904);
+box-shadow: 0px 0px 10px #A2A2A229;
+margin-bottom: 4rem;
+}
+
+#accelerator-text{
+color: rgb(43, 43, 43);
+line-height: 30px;
+width: 90%;
+margin: 0 5% 2rem 5%;
+}
+
+
+/* Responsive Video */
+
+#video-container{
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+}
+
+#video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.parallax-container {
+  height: 100px;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+#partners-container{
+  padding-top: 4rem;
+}
+
+#partners-pictures-container{
+  background-image: linear-gradient(rgba(173, 173, 173, 0), rgb(194, 194, 194));
+}
+
+.partners-pictures{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.page-footer{
+  margin-top: 4rem;
+}
+
+.footer-text{
+  font-size: 14px;
+}
+
+
+/* ---------------------------- projects.html-------------------------------- */
+
+.project-header{
+  background: url('../images/header2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  min-height: 770px;
+  position: relative;
+}
+
+#apps-title{
+  margin: 3rem 0 2rem 0;
+}
+
+#apps-container{
+  width: 100%;
+  margin-bottom: 8rem;
+  padding: 0 2rem 1rem 2rem;
+}
+
+.app-text{
+  line-height: 40px;
+  width: 95%;
+  margin: 0 2.5% 0 2.5%;
+}
+#current-project-title{
+  margin: 3rem 0 2rem 0;
+}
+
+#project-container1{
+  width: 80%;
+  margin: 0 10% 6rem 10%;
+}
+
+.border-box{
+  border: 1px solid #949494;
+}
+
+#contributions-container{
+  padding: 2%;
+  background-color: rgba(241, 241, 241, 0.904);
+  box-shadow: 0px 0px 10px #A2A2A229;
+}
+
+#past-project-title{
+  width: 80%;
+  margin: 8rem 10% 2rem 10%;
+}
+
+#project-container2{
+  width: 80%;
+  margin: 0 10% 8rem 10%;
+}
+/* ---------------------------- team.html-------------------------------- */
+
+.team-header{
+  background: url('../images/header3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  min-height: 770px;
+  position: relative;
+}
+
+#team-title{
+  margin: 3rem 0 3rem 0;
+}
+
+#team-title-content{
+  
+line-height: 35px;
+width: 90%;
+margin: 0 5% 0 5%;
+}
+
+#structure-title{
+  margin: 2rem 0 2rem 0;
+}
+
+#structure-container{
+margin-top: 6rem;
+margin-bottom: 3rem;
+box-shadow: 0px 0px 10px #A2A2A229;
+}
+
+
+#about-team-member-container{
+  box-shadow: 0px 0px 10px #A2A2A229;
+}
+
+#team-container{
+padding: 2rem;
+}
+
+#team-members-title{
+  margin: 2rem 0 2rem 0;
+}
+
+.about-team-member{
+margin: 0 3rem 3rem 3rem;
+width: 220px;
+height: 320px;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+  
+.about-team-member:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.team-name-container h5{
+  font-size: 16px;
+}
+
+.team-name-container p{
+  font-size: 14px;
+  color: green;
+}
+
+.modal-content{
+  /* background-color: rgb(43, 77, 0); */
+  background-color: rgb(255, 255, 255);
+}
+
+.mod-head{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+}
+
+.mod-text{
+  line-height: 26px;
+  font-size: 16px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+/* ---------------------------- innovation.html-------------------------------- */
+.innovation-header{
+  background: url('../images/header4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  min-height: 770px;
+  position: relative;
+}
+
+#innovation-title{
+  margin: 3rem 0 0 0;
+}
+
+#innovation_tools-container{
+background-color: rgb(247, 247, 247);
+margin-bottom: 4rem;
+}
+
+#jd-btn{
+  width: 300px;
+  margin: 4rem 0 2rem 0;
+  border-radius: 5px;
+}
+
+#jm-btn{
+  width: 300px;
+  margin: 4rem 0 2rem 0;
+  border-radius: 5px;
+}
+
+#bb-btn{
+  width: 300px;
+  margin: 4rem 0 2rem 0;
+  border-radius: 5px;
+}
+
+/* ---------------------------- news.html-------------------------------- */
+.news-header{
+  background:none;
+}
+
+#news-container{
+  margin-bottom: 10rem;
+}
+
+/* -----------------------------Responsive Design----------------------------------------------------------- */
+/* ------For screens on 400px or smaller------- */
+/* @media screen and (min-width: 992px){
+  header{
+    min-height: 460px;
+  }
+  .project-header{
+    min-height: 460px;
+  }
+  .team-header{
+    min-height: 460px;
+  }
+  .innovation-header{
+    min-height: 460px;
+  }
+  #about-tdi-innovation-content{
+    font-size: 18px;
+    }
+
+    #team-member-container{
+      width: 100%;
+    }
+
+    .team-member{
+    display: block;
+    margin: 1.5rem;
+    width: 220px;
+    height: 320px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    }
+
+    .pics{
+      width: 50%;
+      margin: 0 25%;
+    }
+    
+
+  #vision-container{
+    width: 90%;
+    margin: 1rem 10%;
+  }
+
+  #vision-container ul li{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 1.5rem;
+  }
+
+  #vision-title{
+    padding-top: 0;
+  }
+
+  #team-title{
+    margin: 0;
+  }
+    
+  #team-text{
+    font-size: 18px;
+  }
+
+  .team-member-container h5{
+    font-size: 18px;
+  }
+
+  .team-member-container h5 p{
+    font-size: 12px;
+  }
+
+  #accelerator-container{
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+    
+  #accelerator-text{
+  line-height: 30px;
+  font-size: 18px;
+  width: 90%;
+  margin: 0 5% 2rem 5%;
+  }
+
+  .parallax-container {
+    height: 10px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+  
+  #partners-container{
+    padding-top: 1rem;
+  }
+  
+  .partners-pictures{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .page-footer{
+    margin-top: 1rem;
+  } 
+} */
+/* -----------------------------Responsive Design----------------------------------------------------------- */
+/* ------For screens between 400px and 700px ------- */
+/* @media screen and (min-width: 400px){
+  header{
+    min-height: 500px;
+  } */
